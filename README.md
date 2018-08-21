@@ -1,2 +1,2 @@
-# nedteller
-Nedteller
+# Nedteller
+Nedteller-applikasjon
