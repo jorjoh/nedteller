@@ -1,0 +1,70 @@
+body{
+    background-color: #262626;
+    color: #ffffff;
+}
+
+main{
+    width: 30rem;
+    margin: 0 auto;
+    
+}
+output{
+    display: block;
+    text-align: center;
+    font-size: 18pt;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.buttons button{
+    font-size: 18pt;
+    width: 140px;
+    height: 150px;
+    background-color: black;
+    color: #ffffff;
+    background: transparent;
+}
+.buttons button:hover{
+  cursor: pointer;
+  background: #fd5158;
+  border-color: #fd5158;
+}
+.buttons button:focus{
+    background: orange;
+    border-color: orange;
+    outline: none;
+}
+.startbutton{
+    background: #fd5158;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+}
+.startbutton:hover{
+    cursor: pointer;
+    background: white;
+    color: #000000;
+}
+.resetbutton{
+    background: #fd5158;
+    color: #ffffff;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    margin-top: 5px;
+}
+.knapper{
+    width: 300px;
+    
+    
+}
